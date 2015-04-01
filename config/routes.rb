@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   root 'main#root'
 
+  get 'main/chatrooms' => 'main#chatrooms'
+  get 'main/profile' => 'main#profile'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+source 'https://rails-assets.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -45,4 +46,6 @@ group :development, :test do
   #powder
   gem "powder"
 end
+
+gem 'rails-assets-bootstrap'
 
